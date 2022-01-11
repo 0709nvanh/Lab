@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="max-w-5xl mx-auto">
+      <header>
+        <div class="bg-blue-800 py-4">
+          <a href="">
+            <img src="https://caodang.fpt.edu.vn/vinmart/images/icon2a.png" alt="" class="mx-auto h-[40px] w-[75px]">
+          </a>
+        </div>
+        <nav class="bg-[#ff6026] flex justify-between items-center box-border">
+            <ul class="flex justify-center">
+              <li><a href="/" class="text-[#fff] block px-4 py-3 hover:text-blue-700 duration-300">Trang chủ</a></li>
+              <li><a href="/tuyensinh" class="text-[#fff] block px-4 py-3 hover:text-blue-700 duration-300">Tuyển sinh</a></li>
+              <li><a href="/daotao" class="text-[#fff] block px-4 py-3 hover:text-blue-700 duration-300">Chương trình đào tạo</a></li>
+              <li><a href="/gocsinhvien" class="text-[#fff] block px-4 py-3 hover:text-blue-700 duration-300">Góc sinh viên</a></li>
+              <li><a href="/tuyendung" class="text-[#fff] block px-4 py-3 hover:text-blue-700 duration-300">Tuyển dụng</a></li>
+            </ul>
+          <div class="search center py-3 pr-[32px] flex justify-between">
+            <input type="text" class="outline-none px-2" placeholder="Tim kiem...">
+            <div class="pl-[8px]">
+              <button class="uppercase text-[12px] bg-blue-800 border  text-white px-4 py-2">Tim kiem</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div id="app"></div>
+      </main>
+
+      <footer>
+        <div class="block mx-auto bg-blue-800 h-[40px]">
+          <p class="uppercase text-white text-center leading-[40px]">Nguyễn Vân Anh</p>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
