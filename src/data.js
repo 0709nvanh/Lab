@@ -1,41 +1,64 @@
-const news =[
-    {
-        id: 1,
-        title: "Vinh danh sinh vien FPT Polytechnic hoc ky Spring 2018", 
-        imag: "https://cdn.pixabay.com/photo/2018/05/18/16/41/globe-3411506_960_720.jpg",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas consequatur vitae nemo suscipit voluptatum est laudantium doloremque voluptates velit tenetur porro perferendis eaque unde natus. Quisquam dolores tenetur nesciunt."
-    },
-    {
-        id: 2,
-        title: "Vinh danh sinh vien FPT Polytechnic hoc ky Spring 2018", 
-        imag: "https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_960_720.jpg",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas consequatur vitae nemo suscipit voluptatum est laudantium doloremque voluptates velit tenetur porro perferendis eaque unde natus. Quisquam dolores tenetur nesciunt."
-    },
-    {
-        id: 3,
-        title: "Vinh danh sinh vien FPT Polytechnic hoc ky Spring 2018", 
-        imag: "https://cdn.pixabay.com/photo/2014/09/07/22/17/forest-438432_960_720.jpg",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas consequatur vitae nemo suscipit voluptatum est laudantium doloremque voluptates velit tenetur porro perferendis eaque unde natus. Quisquam dolores tenetur nesciunt."
-    }
-]
-const action =[
-    {
-        id: 1,
-        title: "Vinh danh sinh vien FPT Polytechnic hoc ky Spring 2018", 
-        imag: "https://cdn.pixabay.com/photo/2016/07/22/16/29/fog-1535201_960_720.jpg",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas consequatur vitae nemo suscipit voluptatum est laudantium doloremque voluptates velit tenetur porro perferendis eaque unde natus. Quisquam dolores tenetur nesciunt."
-    },
-    {
-        id: 2,
-        title: "Vinh danh sinh vien FPT Polytechnic hoc ky Spring 2018", 
-        imag: "https://cdn.pixabay.com/photo/2013/11/28/10/03/river-219972_960_720.jpg",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas consequatur vitae nemo suscipit voluptatum est laudantium doloremque voluptates velit tenetur porro perferendis eaque unde natus. Quisquam dolores tenetur nesciunt."
-    },
-    {
-        id: 3,
-        title: "Vinh danh sinh vien FPT Polytechnic hoc ky Spring 2018", 
-        imag: "https://cdn.pixabay.com/photo/2017/11/12/13/37/forest-2942477_960_720.jpg",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas consequatur vitae nemo suscipit voluptatum est laudantium doloremque voluptates velit tenetur porro perferendis eaque unde natus. Quisquam dolores tenetur nesciunt."
-    }
+export const news = [
+  {
+    createdAt: "2022-01-10T07:26:52.549Z",
+    title: "Annie Stroman",
+    img: "http://placeimg.com/640/480/fashion",
+    desc: "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    id: "1",
+  },
+  {
+    createdAt: "2022-01-10T20:33:27.477Z",
+    title: "Yolanda Roob",
+    img: "http://placeimg.com/640/480/sports",
+    desc: "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    id: "2",
+  },
+  {
+    createdAt: "2022-01-11T03:36:13.571Z",
+    title: "Rufus Konopelski",
+    img: "http://placeimg.com/640/480/transport",
+    desc: "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    id: "3",
+  },
+  {
+    createdAt: "2022-01-10T04:45:32.422Z",
+    title: "Ray Boyle",
+    img: "http://placeimg.com/640/480/transport",
+    desc: "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    id: "4",
+  },
+  {
+    createdAt: "2022-01-10T10:56:22.073Z",
+    title: "Jacqueline Hills",
+    img: "http://placeimg.com/640/480/fashion",
+    desc: "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    id: "5",
+  },
+  {
+    createdAt: "2022-01-11T00:27:12.664Z",
+    title: "Lee Abbott",
+    img: "http://placeimg.com/640/480/people",
+    desc: "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    id: "6",
+  }
 ];
-export { news, action };
+export const action = [
+  {
+    id: 1,
+    title: "Vinh danh sinh vien FPT Polytechnic hoc ky Spring 2018",
+    imag: "https://cdn.pixabay.com/photo/2016/07/22/16/29/fog-1535201_960_720.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas consequatur vitae nemo suscipit voluptatum est laudantium doloremque voluptates velit tenetur porro perferendis eaque unde natus. Quisquam dolores tenetur nesciunt.",
+  },
+  {
+    id: 2,
+    title: "Vinh danh sinh vien FPT Polytechnic hoc ky Spring 2018",
+    imag: "https://cdn.pixabay.com/photo/2013/11/28/10/03/river-219972_960_720.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas consequatur vitae nemo suscipit voluptatum est laudantium doloremque voluptates velit tenetur porro perferendis eaque unde natus. Quisquam dolores tenetur nesciunt.",
+  },
+  {
+    id: 3,
+    title: "Vinh danh sinh vien FPT Polytechnic hoc ky Spring 2018",
+    imag: "https://cdn.pixabay.com/photo/2017/11/12/13/37/forest-2942477_960_720.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas consequatur vitae nemo suscipit voluptatum est laudantium doloremque voluptates velit tenetur porro perferendis eaque unde natus. Quisquam dolores tenetur nesciunt.",
+  },
+];

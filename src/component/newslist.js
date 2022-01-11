@@ -8,10 +8,10 @@ const NewList = {
                 ${news.map((post) => /* html */`
                         <div class="border p-4">
                         <a href="">
-                            <img src="${post.imag}" alt="" />                    
+                            <img src="${post.img}" alt="" />                    
                         </a>
-                        <h3 class="my-3"><a href="#" class="font-semibold text-orange-500 text-lg">${post.title}</a></h3>
-                        <p class="text-sm text-gray-500">${post.text} </p>
+                        <h3 class="my-3"><a href="/news/${post.id}" class="font-semibold text-orange-500 text-lg">${post.title}</a></h3>
+                        <p class="text-sm text-gray-500">${post.desc}</p>
                     </div>
                 `).join("")}
             </div>

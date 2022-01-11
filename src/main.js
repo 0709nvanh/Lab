@@ -1,4 +1,5 @@
 import Navigo from "navigo";
+import DetailPage from "./page/detail";
 import HomePage from "./page/home";
 
 const router = new Navigo("/", { linksSelector: "a" });
@@ -12,6 +13,10 @@ router.on({
   },
   "/contact": () => {
     print(ContactPage.render())
+  },
+  "/news/:id": ({ data }) =>{
+    const { id } = data;
+    print(DetailPage.render(id))
   },
 });
 router.resolve();
