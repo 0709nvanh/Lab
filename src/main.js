@@ -1,6 +1,7 @@
 import Navigo from "navigo";
 import DetailPage from "./page/detail";
 import HomePage from "./page/home";
+import Signup from "./page/signup";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
@@ -11,8 +12,8 @@ router.on({
   "/": () => {
     print(HomePage.render())
   },
-  "/contact": () => {
-    print(ContactPage.render())
+  "/signup": () => {
+    print(Signup.render())
   },
   "/news/:id": ({ data }) =>{
     const { id } = data;
