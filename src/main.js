@@ -1,6 +1,7 @@
 import Navigo from "navigo";
 import Dashboard from "./component/dashboard";
 import AddNews from "./page/addnews";
+import ReadNews from "./page/adlistnews";
 import DetailPage from "./page/detail";
 import HomePage from "./page/home";
 import NotFoundPage from "./page/notfound";
@@ -30,7 +31,7 @@ router.on({
     print(Dashboard.render())
   },
   "/admin/dashboard/readnews": () =>{
-    print(Dashboard.render())
+    print(ReadNews.render())
   },
   "/admin/news/add": () =>{
       print(AddNews.render())
