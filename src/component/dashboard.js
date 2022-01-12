@@ -3,7 +3,7 @@ import ReadNews from "../page/adlistnews";
 const Dashboard = {
     render(){
         return /*html*/`
-            ${ReadNews.render()}
+            <h3>Dashboad</h3>
         `
     }
 }
