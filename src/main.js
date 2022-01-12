@@ -1,6 +1,9 @@
 import Navigo from "navigo";
+import Dashboard from "./component/dashboard";
 import DetailPage from "./page/detail";
 import HomePage from "./page/home";
+import NotFoundPage from "./page/notfound";
+import SignIn from "./page/signin";
 import Signup from "./page/signup";
 
 const router = new Navigo("/", { linksSelector: "a" });
@@ -15,9 +18,16 @@ router.on({
   "/signup": () => {
     print(Signup.render())
   },
+  "/signin": () => {
+    print(SignIn.render())
+  },
   "/news/:id": ({ data }) =>{
     const { id } = data;
     print(DetailPage.render(id))
   },
+  "/admin/dashboard": () =>{
+    print(Dashboard.render())
+  },
 });
+router.notFound(() => print(NotFoundPage.render()));
 router.resolve();
