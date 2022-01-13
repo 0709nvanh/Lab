@@ -4,8 +4,8 @@ const ReadNews = {
     render(){
        return /*html*/`
                 <div class="flex flex-col">
-                        <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                            <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                    <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                        <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                             <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
                                 <table class="min-w-full divide-y divide-gray-200">
                                 <thead class="bg-gray-50">
@@ -48,7 +48,7 @@ const ReadNews = {
                                                 </td>
                                                 <td class="px-6 py-4 whitespace-nowrap">
                                                     <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                                                        <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                                        <a href="/admin/news/${item.id}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                                                     </span>
                                                     <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                                                         <button class="text-indigo-600 font-semibold hover:text-indigo-900">Delete</button>

@@ -10,7 +10,7 @@ const NewList = {
                         <a href="">
                             <img src="${post.img}" alt="" />                    
                         </a>
-                        <h3 class="my-3"><a href="/news/${post.id}" class="font-semibold text-orange-500 text-lg">${post.title}</a></h3>
+                        <h3 class="my-3"><a href="/news/${post.id}" class="font-semibold text-orange-500 text-lg hover:text-orange-700 duration-300">${post.title}</a></h3>
                         <p class="text-sm text-gray-500">${post.desc}</p>
                     </div>
                 `).join("")}

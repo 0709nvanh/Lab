@@ -3,6 +3,7 @@ import Dashboard from "./component/dashboard";
 import AddNews from "./page/addnews";
 import ReadNews from "./page/adlistnews";
 import DetailPage from "./page/detail";
+import UpdayeNews from "./page/editnews";
 import HomePage from "./page/home";
 import NotFoundPage from "./page/notfound";
 import SignIn from "./page/signin";
@@ -30,8 +31,12 @@ router.on({
   "/admin/dashboard": () =>{
     print(Dashboard.render())
   },
-  "/admin/dashboard/readnews": () =>{
+  "/admin/news": () =>{
     print(ReadNews.render())
+  },
+  "/admin/news/:id/edit": ({ data }) =>{
+      const { id } = data;
+    print(UpdayeNews.render(id))
   },
   "/admin/news/add": () =>{
       print(AddNews.render())
