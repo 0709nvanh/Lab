@@ -31,7 +31,7 @@ const ReadNews = {
                         <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
                             <!-- Replace with your content -->
                             <div class="px-4 py-6 sm:px-0">
-                                <div class="border-4 border-dashed border-gray-200 rounded-lg h-96">
+                                <div class="border-4 border-dashed border-gray-200 rounded-lg h-[500px]">
                                     <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                                         <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
                                             <table class="min-w-full divide-y divide-gray-200">
