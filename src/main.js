@@ -1,20 +1,19 @@
 import Navigo from "navigo";
 import FooterClient from "./client/footer";
-import Dashboard from "./component/dashboard";
-import AddNews from "./page/addnews";
-import ReadNews from "./page/adlistnews";
+import AddNews from "./page/admin/news/addnews";
+import ReadNews from "./page/admin/news/adlistnews";
 import DetailPage from "./page/detail";
-import UpdateNews from "./page/editnews";
+import UpdateNews from "./page/admin/news/editnews";
 import HomePage from "./page/home";
 import NotFoundPage from "./page/notfound";
 import SignIn from "./page/signin";
 import Signup from "./page/signup";
+import DashboardAdmin from "./page/admin/dashboard";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
 const print = (content) => {
     document.querySelector('#app').innerHTML = content;
-    // document.querySelector('#footer').innerHTML =FooterClient.render();
 };
 router.on({
   "/": () => {
@@ -31,7 +30,7 @@ router.on({
     print(DetailPage.render(id))
   },
   "/admin/dashboard": () =>{
-    print(Dashboard.render())
+    print(DashboardAdmin.render())
   },
   "/admin/news": () =>{
     print(ReadNews.render())
