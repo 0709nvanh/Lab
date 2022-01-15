@@ -1,3 +1,4 @@
+import NavAdmin from "../../../component/navadmin";
 const AddNews = {
     render(){
         return /*html*/`
